@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+    background-color: rgba(44, 42, 42, 0.329);
+    width: 30vw;
+    height: 100vh;
+    
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.main{
+    background-color: rgb(226, 144, 198);
+    width: 90vw;
+    height: 100vh;
+}
+
+.infocontainer{
+    background-color: rgb(226, 144, 198);
+    height: 50vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+}
+.devinfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+.hello{
+font-size: 65px;
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+}
+.about{
+font-size: 40px;
+
+}
+.button{
+display: flex;
+flex-direction: row;
+
+}
+.buttons{
+   padding: 15px 32px;
+   margin: 5px;
+   border-radius: 30%;
+   background-color: blueviolet;
+   text-align: center;
+   font-size: 5px;
+   text-decoration: none;
+   color: white;
+   overflow: hidden;
+   background: transparent;
+}
+.buttonsr{
+    padding: 15px 32px;
+}
+.contactform{
+    padding: 40px;
+}
+@media (max-width:720px) {
+    .sidebar{
+        transform: translate();
+    }
+}
+.intro{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    word-spacing: 0.3cm;
+}
+.myintro{
+    background-color: rgba(81, 255, 0, 0.704);
+}
+.skill{
+    padding-left: 200px;
+    margin-bottom: 10px;
+   
+}
+.myskill{
+    padding-left: 20px;
+    padding-top: 90px;
+}
+.hundred{
+    width: 10cm;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.ninty{
+    width: 9cm;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+}
+.eighty{
+    width: 8cm;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+}
+.seventy{
+    width: 8cm;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+}
