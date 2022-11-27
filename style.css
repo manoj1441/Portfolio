@@ -1,94 +1,113 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-.sidebar{
-    background-color: rgba(44, 42, 42, 0.329);
-    width: 30vw;
-    height: 100vh;
-    
-
-}
-.sidebar nav{
-    padding: 45px;
-}
-.sidebar nav li{
-    list-style: none;
-    font-size: 30px;
-    padding: 33px 0;
-}
-.sidebar nav li a{
-    text-decoration: none;
+.heading-container{
+    background-color: black;
     color: white;
-}
-.container{
-    display: flex;
-}
-.main{
-    background-color: rgb(226, 144, 198);
-    width: 90vw;
-    height: 100vh;
-}
+    padding: 20px;
 
-.infocontainer{
-    background-color: rgb(226, 144, 198);
-    height: 50vh;
-    width: 80vw;
-    margin: 100px auto;
-    display: flex;
-}
-.devinfo{
-    display: flex;
-   justify-content: center;
-    flex-direction: column;
-}
-.hello{
-font-size: 65px;
+
 }
 .name{
-font-size: 50px;
-font-weight: bold;
+    font-size: 30px;
 }
-.about{
-font-size: 40px;
+.header-option{
+    float: right;
+    margin-top: 10px;
+    color: white;
+    
+}
+.header-option2{
+margin: 10px;
+}
+.image{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.image-name{
+    font-size: 50px;
+    margin-left: 30px;
 
 }
-.button{
-display: flex;
-flex-direction: row;
+.univercity{
+    margin-left: 70px;
+    color: #1285d9;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
+
+.fa{
+    padding: 13px;
+    font-size: 40px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
 }
-.buttons{
-   padding: 15px 32px;
-   margin: 5px;
-   border-radius: 30%;
-   background-color: blueviolet;
-   text-align: center;
-   font-size: 5px;
-   text-decoration: none;
-   color: white;
-   overflow: hidden;
-   background: transparent;
+.fa:hover{
+    opacity: 0.7;
 }
-.buttonsr{
-    padding: 15px 32px;
+.fa-facebook{
+    background-color: black;
+    color: white;
 }
-.contactform{
-    padding: 40px;
+
+
+.profile{
+    display: inline;
+    margin-left: 60px;
+   
 }
-@media (max-width:720px) {
-    .sidebar{
-        transform: translate();
-    }
+.description{
+    float: right;
+    display: inline;
+   margin-left: 80px;
+    margin-top: 76px;
+}
+.cv{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: 140px;
+    background-color: wheat;
+    border-radius: 40%;
+    font-size:15px;
+}
+.con{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: 30px;
+    background-color: wheat;
+    border-radius: 40%;
+    font-size:15px;
+}
+.bio{
+    font-size: 20px;
 }
 .intro{
-    padding: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-    word-spacing: 0.3cm;
+    margin-right: 45px;
+    line-height: 0.5cm;
+    text-indent: 2em;
+    line-height: 6mm;
+    font-size: 19px;
+    font-family: cursive;
+}
+.parent{
+    display: flex;
+  
+}
+.graduation{
+   margin-right: 120px;
+   line-height: 40px;
 }
 .myintro{
-    background-color: rgba(81, 255, 0, 0.704);
+    background-color:white;
+    display: flex;
+    flex-direction: row;
 }
 .skill{
     padding-left: 200px;
@@ -96,20 +115,22 @@ flex-direction: row;
    
 }
 .myskill{
-    padding-left: 20px;
-    padding-top: 90px;
+    padding-left: 250px;
+   
+    float: right;
+    margin-right: -251px;
 }
 .hundred{
     width: 10cm;
     height: 2px;
-    background-color: red;
+    background-color: rgb(80, 21, 190);
     margin-bottom: 10px;
     padding-left: 20px;
 }
 .ninty{
     width: 9cm;
     height: 2px;
-    background-color: red;
+    background-color: rgb(80, 21, 190);
     margin-bottom: 10px;
     padding-left: 20px;
 
@@ -117,7 +138,7 @@ flex-direction: row;
 .eighty{
     width: 8cm;
     height: 2px;
-    background-color: red;
+    background-color: rgb(80, 21, 190);
     margin-bottom: 10px;
     padding-left: 20px;
 
@@ -125,8 +146,33 @@ flex-direction: row;
 .seventy{
     width: 8cm;
     height: 2px;
-    background-color: red;
+    background-color: rgb(80, 21, 190);
     margin-bottom: 10px;
     padding-left: 20px;
 
 }
+.project{
+    margin-left: 200px;
+}
+.projects{
+    margin-left: 20px;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 380px;
+    height:380px;
+    line-height: 46px;
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: dotted;
+    justify-content: center;
+   text-align: center;
+    overflow: hidden;
+}
+
