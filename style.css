@@ -175,4 +175,21 @@ margin: 10px;
    text-align: center;
     overflow: hidden;
 }
+@media(max-width:300px){
+    #body{
+        width: 30%;
+    }
+    .header-option{
+        float: none;
+        width: 100%;
+    }
+  
+   .myintro{
+    display: flex;
+    flex-direction: column;
+   }.contactform{
+    width: 20%;
+    margin-left: -300px;
+   }
+  }
 
