@@ -175,21 +175,104 @@ margin: 10px;
    text-align: center;
     overflow: hidden;
 }
-@media(max-width:300px){
-    #body{
-        width: 30%;
+@media(max-width:500px){
+    
+   .name{
+    font-size: 19px;
+   }
+    .parent{
+        display: flex;
+        flex-direction: column;
     }
     .header-option{
-        float: none;
-        width: 100%;
+        margin: -1px;
+        }
+    .profile{
+        width: 350px;
+        height: 291px;
     }
-  
-   .myintro{
-    display: flex;
-    flex-direction: column;
-   }.contactform{
-    width: 20%;
-    margin-left: -300px;
+    .image{
+        margin: 6px;
+        height: 222px;
+        width: 222px;
+        border-radius: 70%;
+    }
+    .image-name{
+        font-size: 32px;
+        margin-left: 22px;
+    }
+    .univercity{
+        margin-left: 24px;
+     margin-bottom: 5px;
+        margin-top: 4px;
+    }
+    .icon{
+        margin-left: -24px;
+    }
+    .fa{
+        padding: 5px;
+        margin-left: 11px;
+        font-size: 40px;
+        width: 48px;
+       
+    }
+    .description{
+    width: 344px;
+    margin-top: 31px;
+    margin-left: 39px;
+    height: 45px;
+    }
+    .about-me{
+        font-size: 20px;
+    }
+    .intro{
+        margin-left: -1px;
+        width: 309px;
+        height: 83px;
+    }
+    .cv{
+        width: 88px;
+        height: 26px;
+        margin-top: 156px;
+        margin-left: 36px;
+        font-size: 10px;
+    }
+    .con{
+        width: 88px;
+        height: 26px;
+        margin-top: 156px;
+       font-size: 10px;
+    }
+    .myintro{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .skill{
+        margin-left: -37px;
+        margin-top: -8px;
+    }
+   .html{
+    font-size: 10px;
    }
+    .myskill{
+        padding-left: 29px;
+         height: 71px;
+        margin-right: -267px;
+    }
+    .graduation{
+        width: 442px;
+        font-size: 13px;
+    }
+    .contactform{
+        width: 325px;
+    height: 296px;
+    line-height: 41px;
+    margin-left: 43px;
+    }
+   
   }
 
