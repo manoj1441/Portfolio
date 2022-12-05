@@ -75,6 +75,11 @@ margin: 10px;
     border-radius: 40%;
     font-size:15px;
 }
+a:link,a:visited{
+    color: rgb(201, 170, 233);
+    
+    text-decoration: none;
+}
 .con{
     text-align: center;
     width: 120px;
